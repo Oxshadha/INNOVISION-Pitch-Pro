@@ -101,9 +101,9 @@ The robot is capable of drawing predefined shapes (straight lines, circles, rect
 
 ```
 /PitchPro
-├── Mega_Code/
-│  
-├── ESP32_Code/
+├── Microcontroller_Codes/
+│   ├── mega_code.ino/            
+│   ├── esp32_code.ino    
 │  
 ├── Web_Interface/
 │  
@@ -239,8 +239,8 @@ git clone https://github.com/yourusername/PitchPro.git
 cd PitchPro
 
 # Install required libraries in Arduino IDE
-# Upload Mega_Code/ to Arduino Mega
-# Upload ESP32_Code/ to ESP32 board
+# Upload mega_code.ino/ to Arduino Mega
+# Upload esp32_code.ino/ to ESP32 board
 ```
 
 ### 3. Calibration
